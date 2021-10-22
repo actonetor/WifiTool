@@ -110,7 +110,7 @@ if opt == str("3"):
         os.system("aireplay-ng -0 0 -a" + mac2 + " --ignore-negative-one wlan0mon")
     if cont == int("non"):
         quit()
-     quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
+    quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
     if quite == str("non"):
         quit()
     if quite == str("oui"):
