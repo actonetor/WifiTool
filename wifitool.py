@@ -34,7 +34,7 @@ if opt == str("1"):
     print("\n***************Bienvenue dans l'interface 1*****************")
     print("\n************************************************************\n\n\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
-    if cont == int("oui"):
+    if cont == str("oui"):
    
     #if =  la commande sudo ifconfig
     
@@ -85,7 +85,7 @@ if opt == str("3"):
     print("***************Bienvenue dans l'interface 3*****************")
     print("************************************************************\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
-    if cont == int("oui"):
+    if cont == str("oui"):
         os.system("ifconfig")
         inter2 = input("\nEntrer le nom exacte de votre interface a utiliser : ")
 
@@ -110,7 +110,7 @@ if opt == str("2"):
     print("1. Dicter la liste a utiliser")
     print("2. Utiliser la liste de base (recommander)\n\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
-    if cont == int("oui"):
+    if cont == str("oui"):
         opls = input("Entrer une options valide : ")
         if not opls == str("1") and ("2"):
             print("ERREUR: Entrer une options valide")
@@ -133,7 +133,7 @@ if opt == str("4"):
     print("***************Bienvenue dans l'interface 4*****************")
     print("************************************************************\n\n\n") 
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
-    if cont == int("oui"):
+    if cont == str("oui"):
         os.system("ip addr")
         ip = input("\nVeullier entrer votre adresse IP (exemple: 192.2.122.0/24) : ")
         os.system("clear")
@@ -152,7 +152,7 @@ if opt == str("5"):
     print("***************Bienvenue dans l'interface 5*****************")
     print("************************************************************\n\n\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
-    if cont == int("oui"):
+    if cont == str("oui"):
         print("1. Fern Wifi Cracker (Un outil kali linux pour cracker un réseau wifi de n'importe quel sécurité(WPA(2) WPS)")
         print("2. EtterCap-graphical (un outil pour renifler le réseau)")
         print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
