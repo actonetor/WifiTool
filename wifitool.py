@@ -112,7 +112,7 @@ if opt == str("1"):
         os.system("clear")
         os.system("reaver -i wlan0mon -b " + MAC + " -vv")
     quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
-   if quite == str("non"):
+    if quite == str("non"):
         quit()
     if quite == str("oui"):
         msp = input("Veullier enter le nom de votre interface mise en pause : ")
