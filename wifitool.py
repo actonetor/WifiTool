@@ -181,7 +181,7 @@ if opt == str("2"):
         if opls == str("2"):
             os.system("clear")
             os.system("wifite --dict password.txt")
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
         quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
     if quite == str("non"):
