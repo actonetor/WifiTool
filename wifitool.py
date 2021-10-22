@@ -121,7 +121,7 @@ if opt == str("1"):
         os.system("airmon-ng stop wlan0mon")
         os.system("clear")
         quit()
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
         
         
@@ -144,7 +144,7 @@ if opt == str("3"):
 
         os.system("clear")
         os.system("aireplay-ng -0 0 -a" + mac2 + " --ignore-negative-one wlan0mon")
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
     quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
     if quite == str("non"):
@@ -156,7 +156,7 @@ if opt == str("3"):
         os.system("airmon-ng stop wlan0mon")
         os.system("clear")
         quit()
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
 
 
@@ -193,7 +193,7 @@ if opt == str("2"):
         os.system("airmon-ng stop wlan0mon")
         os.system("clear")
         quit()
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
 
 
@@ -212,7 +212,7 @@ if opt == str("4"):
         ip = input("Entrer l'adresse ip du client cible : ")
         os.system("clear")
         os.system("aireplay-ng --deauth 0 -a " + mace + " -k " + ip +  " wlan0")
-    if cont == int("non"):
+    if cont == str("non"):
         quit()
 
 
@@ -239,6 +239,5 @@ if opt == str("5"):
             dev = input("Entrer l'adresse mac pour changer la votre : ")
             os.system("clear")
             os.system("sudo macchanger -m " + dev)
-if cont == int("non"):
+if cont == str("non"):
         quit()
-
