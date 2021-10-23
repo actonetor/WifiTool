@@ -23,6 +23,8 @@ print("* \u001b[34mINSTAGRAM:Lefrentoune\u001b[0m                    *")
 print("*                                          *") 
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
+print("CHARGEMENT")
+char1 = print("
 os.system("clear")
 
 
