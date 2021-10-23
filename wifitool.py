@@ -63,7 +63,6 @@ if opt == str("1"):
     print("\n************************************************************\n\n\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
     if cont == str("oui"):
-        delete cont
    
     #if =  la commande sudo ifconfig
     
