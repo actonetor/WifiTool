@@ -1,39 +1,41 @@
-#importer la bibliotheque OS
 import os
-#importer la bibliotheque time
 import time
 import subprocess
-os.system("clear")
-print("\u001b[34mWIFI-HACKING-KALI-LINUX\u001b[0m\n\n\n")
-print("??????????????????????????????????????")
-print("????@??????????????@??@??@@@@@??@???????")
-print("?????@??????@?????@??????@??????????????")
-print("???????@???@?@???@????@??@@@@???@???????")
-print("????????@?@???@?@?????@??@??????@???????")
-print("?????????@?????@??????@??@??????@???????")
-print("??????????????????????????????????????")
-print("\nACTONETOR && HACKINGTOOL\n")
-print("********************************************")
-print("*   ACTONETOR, 2021                        *")
-print("*   TIKTOK:actone_toranonyme               *")
-print("*   INSTAGRAM:Lefrentoune                  *")
-print("*                                          *")
-print("********************************************\n\n\n")
-print("INSTALLATION DES REQUIREMENT\n")
-print("[                           ] %0 ")
-time.sleep(2)
-os.system("apt autoremove ")
-print("[=======                    ] %25 ")
-time.sleep(2)
-os.system("apt autoclean")
-print("[==============             ] %50 ")
-time.sleep(2)
-os.system("apt-get aircrack-ng")
-print("[=====================      ] %75 ")
-time.sleep(2)
-os.system("apt-get install fern-wifi-cracker")
-print("[===========================] %100 ")
-time.sleep(3)
+# rouge    \u001b[31m
+# bleu     \u001b[34m
+# annuler  \u001b[0m
+
+os.system("clear") 
+print("\u001b[34mWIFI-HACKING-KALI-LINUX\u001b[0m\n\n\n") 
+print("\u001b[34m????????????????????????????????????????\u001b[0m") 
+print("\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????????????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@@@@@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b>
+print("\u001b[34m?????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m?????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????????????\u001b[0m") 
+print("\u001b[34m???????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m?\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u00>
+print("????????@?@???@?@?????@??@??????@???????") 
+print("?????????@?????@??????@??@??????@???????") 
+print("????????????????????????????????????????") 
+print("\nACTONETOR && HACKINGTOOL\n") 
+print("********************************************") 
+print("* ACTONETOR, 2021                          *") 
+print("* TIKTOK:actone_toranonyme                 *") 
+print("* INSTAGRAM:Lefrentoune                    *") 
+print("*                                          *") 
+print("********************************************\n\n\n") 
+print("INSTALLATION DES REQUIREMENT\n") 
+print("[ ] %0 ") 
+time.sleep(2) 
+os.system("apt autoremove ") 
+print("[======= ] %25 ") 
+time.sleep(2) 
+os.system("apt autoclean") 
+print("[============== ] %50 ") 
+time.sleep(2) 
+os.system("apt-get aircrack-ng") 
+print("[===================== ] %75 ") 
+time.sleep(2) 
+os.system("apt-get install fern-wifi-cracker") 
+print("[===========================] %100 ") 
+time.sleep(3) 
 os.system("clear")
 
 
@@ -225,20 +227,20 @@ if opt == str("5"):
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
     if cont == str("oui"):
         print("1. Fern Wifi Cracker (Un outil kali linux pour cracker un réseau wifi de n'importe quel sécurité(WPA(2) WPS)")
-        print("2. EtterCap-graphical (un outil pour renifler le réseau)")
-        print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
-        inerf = input("Entrer une options valide : ")
-        if not inerf == str("1") and ("2") and ("3"):
-            print("ERREUR: Entrer une options valide")
-        if inerf == str("1"):
-            os.system("clear")
-            os.system("fern-wifi-cracker")
-        if inerf == str("2"):
-            os.system("clear")
-            os.system("sudo ettercap")
-        if inerf == ("3"):
-            dev = input("Entrer l'adresse mac pour changer la votre : ")
-            os.system("clear")
-            os.system("sudo macchanger -m " + dev)
-if cont == str("non"):
-        quit()
+  print("2. EtterCap-graphical (un outil pour renifler le réseau)")
+  print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
+  inerf = input("Entrer une options valide : ")
+  if not inerf == str("1") and ("2") and ("3"):
+      print("ERREUR: Entrer une options valide")
+  if inerf == str("1"):
+      os.system("clear")
+      os.system("fern-wifi-cracker")
+  if inerf == str("2"):
+      os.system("clear")
+      os.system("sudo ettercap")
+  if inerf == ("3"):
+      dev = input("Entrer l'adresse mac pour changer la votre : ")
+      os.system("clear")
+      os.system("sudo macchanger -m " + dev)
+  if cont == str("non"):
+      quit()
