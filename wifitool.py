@@ -1,7 +1,7 @@
 import os
 import time
-import subprocess
-import datetime
+
+
 # rouge    \u001b[31m
 # bleu     \u001b[34m
 # annuler  \u001b[0m
@@ -23,12 +23,22 @@ print("* \u001b[34mINSTAGRAM:Lefrentoune\u001b[0m                    *")
 print("*                                          *") 
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
-print("CHARGEMENT")
-char = print("[                    ]  %0 ")
-os.system('apt autoremove && apt autoclean')
+print("CHARGEMENT\n")
+print("[                    ]  %0 ")
+os.system('apt autoremove ')
 time.sleep(2)
-del char
-char1 = print("[#####               ]  %25 ") 
+print("[#####               ]  %25 ") 
+os.system("apt-get install fern-wifi-cracker")
+time.sleep(2)
+print("[##########          ]  %50 ")
+os.system("apt-get install wifite")
+time.sleep(2)
+print("[###############     ]  %75 ")
+os.system("apt-get install aircrack-ng ")
+time.sleep(2)
+print("[####################]  %100 ")
+os.system("apt autoclean")
+time.sleep(6)
 
 os.system("clear")
 #présentation
