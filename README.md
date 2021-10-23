@@ -1,13 +1,15 @@
 # WifiTool
+
 Plusieurs Tool python pour du pentesting en wifi (wps cracking wpa cracking dos) 
-Il marche que sur kali linux
 
-#Commande
+Il marche que sur Kali Linux est Parrot OS
 
-#git clone https://github.com/actonetor/WifiTool
+#   Commande
 
-#cd WifiTool
+git clone https://github.com/actonetor/WifiTool
 
-#sudo wifitool.py
+cd WifiTool
 
-Merci d'utiliser se script est n'oublie pas de t'abonner pour que mes projet sois plus fréquent. 
+sudo wifitool.py
+
+# JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTE
