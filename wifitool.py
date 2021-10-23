@@ -1,7 +1,7 @@
 import os
 import time
 import subprocess
-import time, sys, random
+import datetime
 # rouge    \u001b[31m
 # bleu     \u001b[34m
 # annuler  \u001b[0m
