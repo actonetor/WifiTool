@@ -78,6 +78,8 @@ if opt == str("1"):
     print("\n***************Bienvenue dans l'interface 1*****************")
     print("\n************************************************************\n\n\n")
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
+    if cont == str("non"):
+        quit()
     if cont == str("oui"):
    
     #if =  la commande sudo ifconfig
@@ -128,8 +130,6 @@ if opt == str("1"):
         os.system("clear")
         os.system("airmon-ng stop wlan0mon")
         os.system("clear")
-        quit()
-    if cont == str("non"):
         quit()
         
         
