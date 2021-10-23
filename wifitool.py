@@ -26,9 +26,9 @@ print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n")
 print("CHARGEMENT")
 char1 = print("[                    ]  %0 ")
 os.system("apt autoremove && apt autoclean")
-time(2)
+time.sleep(2)
 del (char1)
-char1 = print("test")
+char2 = print("test")
 
 
 #présentation
