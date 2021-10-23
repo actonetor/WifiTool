@@ -24,10 +24,11 @@ print("*                                          *")
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
 print("CHARGEMENT")
-char1 = print("[                    ]  %0 ")
-os.system("apt autoremove && apt autoclean")
+char = print("[                    ]  %0 ")
+subprocess.run("apt autoremove && apt autoclean")
 time.sleep(2)
-del (char1) and print("[#####               ]  %25 ") 
+del char1 
+char1 = print("[#####               ]  %25 ") 
 
 
 #présentation
