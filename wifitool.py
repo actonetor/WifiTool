@@ -23,7 +23,7 @@ print("* \u001b[34mINSTAGRAM:Lefrentoune\u001b[0m                    *")
 print("*                                          *") 
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
-def loading(count, on_delete=models.DO_NOTHING):
+def loading(count):
     all_progress = [0] * count
     sys.stdout.write("\n" * count)
     while any(x < 100 for x in all_progress):
