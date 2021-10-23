@@ -5,6 +5,7 @@ import time
 # rouge    \u001b[31m
 # bleu     \u001b[34m
 # annuler  \u001b[0m
+# vert     \u001b[32m
 
 os.system("clear") 
 print("\u001b[34mWIFI-HACKING-KALI-LINUX\u001b[0m\n\n\n") 
@@ -24,7 +25,7 @@ print("*                                          *")
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
 print("CHARGEMENT\n")
-print("[                    ]  %0 ")
+print("\u001b[32m[                    ]  %0 ")
 os.system('apt autoremove ')
 time.sleep(2)
 print("[#####               ]  %25 ") 
@@ -36,7 +37,7 @@ time.sleep(2)
 print("[###############     ]  %75 ")
 os.system("apt-get install aircrack-ng ")
 time.sleep(2)
-print("[####################]  %100 ")
+print("[####################]  %100 \u001b[0m")
 os.system("apt autoclean")
 time.sleep(6)
 
