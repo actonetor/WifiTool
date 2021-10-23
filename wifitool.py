@@ -235,7 +235,7 @@ if opt == str("5"):
         print("2. EtterCap-graphical (un outil pour renifler le réseau)")
         print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
         inerf = input("Entrer une options valide : ")
-    if not inerf == str("1") and ("2") and ("3"):
+    if not inerf == str("1") and ("2") and ("3") and (""):
         print("ERREUR: Entrer une options valide")
     if inerf == str("1"):
         os.system("clear")
