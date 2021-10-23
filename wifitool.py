@@ -192,8 +192,8 @@ if opt == str("2"):
     if cont == str("non"):
         quit()
         quite = input("voulez vous enlever votre interface en pause ? (oui ou non) : ")
-    if quite == str("non"):
-        quit()
+        if quite == str("non"):
+            quit()
     if quite == str("oui"):
         msp = input("Veullier enter le nom de votre interface mise en pause : ")
         os.system("ifconfig " + msp + " up")
