@@ -1,6 +1,7 @@
 import os
 import time
 import subprocess
+import time, sys, random
 # rouge    \u001b[31m
 # bleu     \u001b[34m
 # annuler  \u001b[0m
@@ -22,7 +23,6 @@ print("* \u001b[34mINSTAGRAM:Lefrentoune\u001b[0m                    *")
 print("*                                          *") 
 print("********************************************\n\n\n") 
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
- import time, sys, random
 def loading(count):
     all_progress = [0] * count
     sys.stdout.write("\n" * count) # Make sure we have space to draw the bars
