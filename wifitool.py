@@ -8,9 +8,9 @@ import subprocess
 os.system("clear") 
 print("\u001b[34mWIFI-HACKING-KALI-LINUX\u001b[0m\n\n\n") 
 print("\u001b[34m????????????????????????????????????????\u001b[0m") 
-print("\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????????????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@@@@@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b>
+print("\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????????????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@@@@@\u001b[0m\u001b[34m??\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???????\u001b[0m")
 print("\u001b[34m?????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m?????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??????????????\u001b[0m") 
-print("\u001b[34m???????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m?\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u00>
+print("\u001b[34m???????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m?\u001b[0m\u001b[31m@\u001b[0m\u001b[34m???\u001b[0m\u001b[31m@\u001b[0m\u001b[34m????\u001b[0m\u001b[31m@\u001b[0m\u001b[34m??\u001b
 print("????????@?@???@?@?????@??@??????@???????") 
 print("?????????@?????@??????@??@??????@???????") 
 print("????????????????????????????????????????") 
@@ -227,20 +227,20 @@ if opt == str("5"):
     cont = input("Vouller vous vraiment continuer (oui ou non) : ")
     if cont == str("oui"):
         print("1. Fern Wifi Cracker (Un outil kali linux pour cracker un réseau wifi de n'importe quel sécurité(WPA(2) WPS)")
-  print("2. EtterCap-graphical (un outil pour renifler le réseau)")
-  print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
-  inerf = input("Entrer une options valide : ")
-  if not inerf == str("1") and ("2") and ("3"):
-      print("ERREUR: Entrer une options valide")
-  if inerf == str("1"):
-      os.system("clear")
-      os.system("fern-wifi-cracker")
-  if inerf == str("2"):
-      os.system("clear")
-      os.system("sudo ettercap")
-  if inerf == ("3"):
-      dev = input("Entrer l'adresse mac pour changer la votre : ")
-      os.system("clear")
-      os.system("sudo macchanger -m " + dev)
-  if cont == str("non"):
-      quit()
+        print("2. EtterCap-graphical (un outil pour renifler le réseau)")
+        print("3. Macchanger (un outil pour changer son adresse mac (USURPATION)\n\n")
+        inerf = input("Entrer une options valide : ")
+    if not inerf == str("1") and ("2") and ("3"):
+        print("ERREUR: Entrer une options valide")
+    if inerf == str("1"):
+        os.system("clear")
+        os.system("fern-wifi-cracker")
+    if inerf == str("2"):
+        os.system("clear")
+        os.system("sudo ettercap")
+    if inerf == ("3"):
+        dev = input("Entrer l'adresse mac pour changer la votre : ")
+        os.system("clear")
+        os.system("sudo macchanger -m " + dev)
+    if cont == str("non"):
+        quit()
