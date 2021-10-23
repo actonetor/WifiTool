@@ -27,8 +27,7 @@ print("CHARGEMENT")
 char1 = print("[                    ]  %0 ")
 os.system("apt autoremove && apt autoclean")
 time.sleep(2)
-del (char1)
-char2 = print("test")
+del (char1) and print("[#####               ]  %25 ") 
 
 
 #présentation
