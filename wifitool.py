@@ -25,7 +25,7 @@ print("********************************************\n\n\n")
 print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
 print("CHARGEMENT")
 char1 = print("[                    ]  %0 ")
-os.system("apt autoremove && apt autoclean
+os.system("apt autoremove && apt autoclean")
 time(2)
 char1 = print("[=====               ]  %25 ")
 time(2)
