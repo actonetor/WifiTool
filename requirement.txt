@@ -1,0 +1,10 @@
+os.system("clear")
+os.system("apt autoremove && apt autoclean
+os.system("clear")
+os.system("apt-get install fern-wifi-cracker")
+os.system("clear")
+os.system("apt-get install wifite")
+os.system("clear")
+os.system("apt-get install aircrack-ng")
+os.system("clear")
+quit()
