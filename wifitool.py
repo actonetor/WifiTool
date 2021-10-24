@@ -82,8 +82,9 @@ if requir == str("non") :
         if chois and choise  == str("non") : 
              quit()
 
-    if requir and chois and choise == str("oui"):
-
+    if requir == str("oui") :
+    if chois == str("oui"):
+    if choise == str("oui"):
         os.system("clear")
     #présentation
         print("\u001b[34mWIFI-HACKING-KALI-LINUX\u001b[0m\n\n\n") 
