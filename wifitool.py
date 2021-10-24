@@ -24,7 +24,7 @@ print("* \u001b[34mINSTAGRAM:Lefrentoune\u001b[0m                    *")
 print("*                                          *") 
 print("********************************************\n\n\n") 
 requir = input("Avez vous deja installer les requirements ? ( oui ou non ) : ")
-if not requir == str("non") and ("oui") :
+if not requir == str("non") and ("oui") and ("") :
     print("ERREUR: Entrer un options valide")
     quit()
     
@@ -54,7 +54,7 @@ if requir == str("non") :
         time.sleep(6)
         os.system("clear")
         chois = input("Voulez vous continuer ? ( oui ou non ) : ")
-    if choi == str("kali") and ("parrot") :
+    if choi == str("kali") and ("parrot") and ("") :
         print("\u001b[31mINSTALLATION DES REQUIREMENT\u001b[0m\n") 
         print("CHARGEMENT\n")
         print("\u001b[32m[                    ]  %0 ")
@@ -79,8 +79,8 @@ if requir == str("non") :
         os.system("clear")
         choise = input("Vouler vous continuer ? ( oui ou non ) : ")
 
-if chois and choise  == str("non") :
-    quit()
+        if chois and choise  == str("non") : 
+             quit()
 
 if requir and chois and choise == str("oui"):
 
