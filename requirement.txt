@@ -1,5 +1,6 @@
+import os
 os.system("clear")
-os.system("apt autoremove && apt autoclean
+os.system("apt autoremove && apt autoclean")
 os.system("clear")
 os.system("apt-get install fern-wifi-cracker")
 os.system("clear")
