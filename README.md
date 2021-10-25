@@ -13,7 +13,13 @@ git clone https://github.com/actonetor/WifiTool
 
 cd WifiTool
 
-sudo wifitool.py
+sudo python3 requirements.txt
+
+sudo chmod 777 wifitool.py
+
+./wifitool.py
+
+ou sudo python3 wifitool.py
 
 # JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTE
 
