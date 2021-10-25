@@ -1,0 +1,13 @@
+import os
+os.system("clear")
+os.system("pkg update && pkg upgrade")
+os.system("clear")
+os.system("apt install fern-wifi-cracker")
+os.system("clear")
+os.system("apt install wifite")
+os.system("clear")
+os.system("apt install aircrack-ng")
+os.system("clear")
+os.system("apt install root-repo")
+os.system("clear")
+quit()
