@@ -8,18 +8,47 @@ Plusieurs Tool python pour du pentesting en wifi (wps cracking wpa cracking dos)
 Il marche que sur Kali Linux est Parrot OS
 
 #   Commande
-
+```
 git clone https://github.com/actonetor/WifiTool
-
+```
+```
 cd WifiTool
-
+```
+```
 sudo python3 requirements.txt
+```
+```
+sudo chmod 777 wifitool
+```
+```
+./wifitool
+```
 
-sudo chmod 777 wifitool.py
+#  requirement
 
-./wifitool.py
+- `git`
+- `wget`
+- `python3`
+- `aircrack-ng`
+- `wifite`
+- `macchanger`
+- `ettercap-graphical`
+- `nmap`
+- `wiresharck`
+- `adapteur wifi`
 
-ou sudo python3 wifitool.py
+#  tool
+
+- [x] wps cracking
+- [x] wpa cracking
+    - [x] wpa2 cracking
+- [x] sniffing
+    - [x] macchanger
+    - [x] ettercap-graphical
+    - [x] wireshark
+- [x] aircrack-ng
+    - [x] airodump-ng
+    - [x] airmon-ng 
 
 # JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTE
 
