@@ -72,7 +72,7 @@ def script():
     #si opt = 1 il vas faire un else 'afficher la suite '
 
     
-    if opt == str("1"):
+    if opt == str("1") :
     
         os.system("clear")
     
@@ -176,7 +176,7 @@ def script():
                                     
                                     
     
-        if opt == str("3"):
+        if opt == str("3") :
     
             os.system("clear")
     
@@ -241,7 +241,7 @@ def script():
 
 
     
-        if opt == str("2"):
+        if opt == str("2") :
     
             os.system("clear")
     
@@ -311,7 +311,7 @@ def script():
 
 
     
-        if opt == str("4"):
+        if opt == str("4") :
     
             os.system("clear")
     
@@ -347,7 +347,7 @@ def script():
 
 
     
-        if opt == str("5"):
+        if opt == str("5") :
     
             os.system("clear")
     
