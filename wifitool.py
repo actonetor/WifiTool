@@ -157,7 +157,4 @@ def all():
             terminal_nom = input("Entrer le nouveau nom > ")
         if utilisateur_commande == "exe":
             exe()
-        else:
-            print("Commande non détécter.....")
-            pass
 all()
