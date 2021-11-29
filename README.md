@@ -1,7 +1,7 @@
 ![th](https://user-images.githubusercontent.com/87834920/138570526-c049623e-a35c-49c4-8d6b-0d3689e0b7e9.jpg)
 
 
-# WifiTool
+# WifiTool V2.0
 
 Plusieurs Tool python pour du pentesting en wifi (wps cracking wpa cracking dos) 
 
@@ -15,10 +15,7 @@ git clone https://github.com/actonetor/WifiTool
 cd WifiTool
 ```
 ```
-sudo python3 requirements.txt
-```
-```
-sudo chmod 777 wifitool
+bash install.sh
 ```
 ```
 ./wifitool
@@ -30,26 +27,32 @@ sudo chmod 777 wifitool
 - `wget`
 - `python3`
 - `aircrack-ng`
-- `wifite`
-- `macchanger`
-- `ettercap-graphical`
-- `nmap`
-- `wiresharck`
+- `wifiphisher`
 - `adapteur wifi`
 
 #  tool
 
 - [x] wps cracking
+- [x] wep cracking
 - [x] wpa cracking
     - [x] wpa2 cracking
-- [x] sniffing
-    - [x] macchanger
-    - [x] ettercap-graphical
-    - [x] wireshark
 - [x] aircrack-ng
     - [x] airodump-ng
     - [x] airmon-ng 
+    - [x] airbase-ng 
+ 
+# Attaque !
+
+- [x] Cracking
+    - [x] WEP
+    - [x] WPS
+    - [x] WPA
+    - [x] WPA2 
+- [x] Evil Twin 
+- [x] MITM
+- [x] Ddos
+- [x] HONEYPOT
 
 # JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTE
 
-![Capture d’écran_2021-10-23_20-11-47](https://user-images.githubusercontent.com/87834920/138570534-2fc69200-28d2-494e-bb7d-b1ccb60f919d.png)
+
