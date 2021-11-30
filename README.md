@@ -32,10 +32,7 @@ bash install.sh
 
 #  tool
 
-- [x] wps cracking
-- [x] wep cracking
-- [x] wpa cracking
-    - [x] wpa2 cracking
+- [x] wifiphishing
 - [x] aircrack-ng
     - [x] airodump-ng
     - [x] airmon-ng 
