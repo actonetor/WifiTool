@@ -1,5 +1,6 @@
 #!/bin/bash
 # requirement pour l'update de wifi tool le 29/11/2021
+clear
 RED='\e[31m'
 echo -e "${RED} "
 echo ""
