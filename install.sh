@@ -26,12 +26,4 @@ if [[ $? -eq 0 ]]; then
             sudo apt install python3
     chmod 777 wifitool
     echo "Les requirements sont installés ! "
-exit_on_signal_SIGINT() {
-        { printf "\n\n%s\n\n" "Programme interuper..." 2>&1; }
-        exit 0    
-    }
-    
-exit_on_signal_SIGTERM() {
-    { printf "\n\n%s\n\n" "Programme terminer." 2>&1; }
-    exit 0
-    }
+
