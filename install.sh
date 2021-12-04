@@ -1,6 +1,5 @@
 #!/bin/bash
 # requirement pour l'update de wifi tool le 29/11/2021
-clear
 RED='\e[31m'
 echo -e "${RED} "
 echo ""
@@ -21,8 +20,21 @@ echo " Détéction du réseau.... ";
 wget -q --tries=10 --timeout=20 --spider https://google.com/
 if [[ $? -eq 0 ]]; then
     echo -e "INSTALLATION... "
-    sudo apt install wifiphisher
+    if [[ `wifiphisher` ]];then
+            sudo apt install wifiphisher
+    elif [[ `python3` ]]; then
+            sudo apt install python3
     chmod 777 wifitool
-    sudo apt install python
     echo "Les requirements sont installés ! "
-fi
+exit_on_signal_SIGINT() {
+        { printf "\n\n%s\n\n" "Programme interuper..." 2>&1; }
+        exit 0    
+    }
+    
+exit_on_signal_SIGTERM() {
+    { printf "\n\n%s\n\n" "Programme terminer." 2>&1; }
+    exit 0
+    }
+
+trap exit_on_signal_SIGINT SIGINT
+trap exit_on_signal_SIGTERM SIGTERM
