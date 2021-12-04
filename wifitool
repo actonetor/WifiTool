@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import os
 import time
 from platform import system
@@ -19,7 +18,7 @@ def intro():
 def exe():
     os.system("clear")
     intro()
-    print("\n    1. WEP cracking \n    2. WPA CRACKING \n    3. WPS CRACKING \n    4. EVIL TWIN \n    5. MITM \n    6. DDos \n    7. HONEYPOT\n\n")
+    print("\n    1. WEP cracking \n    2. WPA CRACKING \n    3. WPS CRACKING \n    4. EVIL TWIN \n    5. MITM \n    6. DDos \n    7. HONEYPOT \n    8. NetworkScanner\n\n")
     opt = input("Entrer une options valide >  ")
     if opt == "1":
         os.system("clear")
@@ -109,8 +108,25 @@ def exe():
         print()
         essid = input("Entrer le essid >  ")
         subprocess.run(["airbase-ng", "-c", "3", "-e", essid, "wlan0mon"])
-
-
+    if opt == "8":
+        os.system("clear")
+        intro()
+        print()
+        ip = input("Entrer l'ip >  ")
+        opts = input("Entrer le mode du scan ( port ou client ) >  ")
+        os.system("clear")
+        intro()
+        print()
+        if opts == "client":
+            os.system("clear")
+            intro()
+            print()
+            subprocess.run(["nmap", "-sV", ip + "/24"])
+        if opts == "port":
+            os.system("clear")
+            intro()
+            print()
+            subprocess.run(["nmap", "-sP", ip + "/24"])
 
 
 
@@ -152,10 +168,4 @@ def all():
             print("\n1. exe \n2. nom \n3. clear \n4. help \n5. quit\n")
         if utilisateur_commande == "":
             pass
-        if utilisateur_commande == "quit":
-            terminal_lancé = False
-        if utilisateur_commande == "nom":
-            terminal_nom = input("Entrer le nouveau nom > ")
-        if utilisateur_commande == "exe":
-            exe()
 all()
