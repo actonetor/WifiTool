@@ -87,7 +87,7 @@ def exe():
         print()
         os.system("iwconfig")
         inter = input("Entrer le nom de votre interface >. ")
-        os.system("airmon-ng start", inter
+        os.system("airmon-ng start", inter)
         essid = input("Entrer le bssid >  ")
         subprocess.run(["airbase-ng", "-e", essid, "-c", "10", inter + "mon")
         subprocess.Popen(["brctl", "addbr", essid + "-bridge"])
