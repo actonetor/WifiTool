@@ -20,10 +20,10 @@ echo " Détéction du réseau.... ";
 wget -q --tries=10 --timeout=20 --spider https://google.com/
 if [[ $? -eq 0 ]]; then
     echo -e "INSTALLATION... "
-    if [[ `wifiphisher` ]];then
-            sudo apt install wifiphisher
-    elif [[ `python3` ]]; then
-            sudo apt install python3
+    sudo apt install wifiphisher
+    sudo apt install python3
     chmod 777 wifitool
     echo "Les requirements sont installés ! "
-
+    rm install.sh
+    
+fi
