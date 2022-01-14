@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import time
 from platform import system
@@ -168,4 +169,11 @@ def all():
             print("\n1. exe \n2. nom \n3. clear \n4. help \n5. quit\n")
         if utilisateur_commande == "":
             pass
+        if utilisateur_commande == "exe":
+            exe()
+        if utilisateur_commande == "nom":
+            terminal_nom = input("Entrer le nouveaux nom du terminal > ")
+            pass
+        if utilisateur_commande == "quit":
+            exit()
 all()
