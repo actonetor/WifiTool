@@ -2,7 +2,8 @@
 clear
 # Verif root
 blue='\e[1;34m'
-[[ `id -u` -eq 0 ]] > /dev/null 2>&1 || { echo  "Lancez ce script en mode root !"; echo >
+[[ `id -u` -eq 0 ]] > /dev/null 2>&1 || { echo  "Lancez ce script en mode root !"; echo ; exit 1; }
+
 
 #Verif internet
 function checkinternet() 
