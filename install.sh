@@ -77,7 +77,7 @@ fi
 function apache_svc_start()
 {
  service apache2 start | zenity --progress --pulsate --title "CHARGEMENT..." --text="Start apache2 service" --percentage=0 --auto-close --width 300 > /dev/null 2>&1
-
+}
 apache_svc_start
 
 
