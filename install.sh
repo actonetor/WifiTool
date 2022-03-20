@@ -13,13 +13,13 @@ function checkinternet()
   then
     echo -e " Verification de la connection internet: FAILED"
     echo
-    echo -e "Ce script a besoin 'internet"
+    echo -e "Ce script a besoin d'internet"
     echo
     echo -e " WifiTool Exit"
     echo && sleep 2
     exit
   else
-    echo -e " Verification d la connection internet: CONNECTED"
+    echo -e " Verification de la connection internet: CONNECTED"
   fi
 }
 
