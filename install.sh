@@ -58,6 +58,7 @@ which wifiphisher > /dev/null 2>&1
 sleep 2
 fi
 
+chmod +x wifitool
 
 # check des paquets
 which python3 > /dev/null 2>&1
